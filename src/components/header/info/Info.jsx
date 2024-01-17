@@ -1,8 +1,7 @@
 import React from 'react'
 import "./info.css";
 import Lawyer1 from "../../../img/lawyer1.jpg"
-import Lawyer2 from "../../../img/lawyer2.jpg"
-import Pp from "../../../img/pp2.png"
+
 
 function Info() {
   return (
