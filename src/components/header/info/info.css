@@ -1,0 +1,47 @@
+.info {
+    width: 100%;
+    height: calc(100vh - 155px);
+    display: flex;
+    border-bottom: 1px solid black;
+    
+}
+
+.info-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.info-text {
+    font-family: 'Kalnia', serif;
+    overflow: hidden;
+}
+
+.info-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.info-right img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-left: 40px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: 0.4s ease;
+}
+
+.info-right img:hover {
+    -webkit-filter: blur(2px); 
+    filter: blur(2px);
+}
+
+
