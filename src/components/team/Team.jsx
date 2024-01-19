@@ -8,7 +8,7 @@ import team4 from "../../img/team4.jpg"
 
 function Team() {
   return (
-    <div className='team'>
+    <div className='team' id='team'>
       <h2>Ekibimizle Tanışın</h2>
       <div className="t-cards">
         <div className="t-card">

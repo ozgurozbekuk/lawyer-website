@@ -4,7 +4,7 @@ import Lawyer3 from "../../img/lawyer3.jpg"
 
 function Services() {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
       <h2>
         Uzmanlıklarımız
       </h2>
