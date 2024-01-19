@@ -34,7 +34,7 @@ function Contact() {
     };
 
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
         <div className="c-icons">
             <i className='c-icon fa-2x'>{phone} <span>+90 555 444 55 55</span></i>
             <i className='c-icon fa-2x'>{email} <span>azadelpeze@gmail.com</span></i>

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./navbar.css"
-import Logo from "../../../img/logo1.jpg"
+import Logo from "../../../img/logo1.jpg";
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -10,14 +11,14 @@ function Navbar() {
         <h4>Azad Hukuk Bürosu</h4>
       </div>
       <div className='nav-right'>
-        <ul>
-            <li>Anasayfa</li>
-            <li>Hakkımızda</li>
-            <li>Hizmetlerimiz</li>
-            <li>Ekibimiz</li>
-            <li>Blog</li>
-            <li>İletişim</li>
-        </ul>
+      <ul>
+        <li><NavLink to="/" exact="true" >Anasayfa</NavLink></li>
+        <li><NavLink to="/about">Hakkımızda</NavLink></li>
+        <li><NavLink to="/services">Hizmetlerimiz</NavLink></li>
+        <li><NavLink to="/team">Ekibimiz</NavLink></li>
+        <li><NavLink to="/blog">Blog</NavLink></li>
+        <li><NavLink to="/contact">İletişim</NavLink></li>
+      </ul>
       </div>
     </div>
   )
